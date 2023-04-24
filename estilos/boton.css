@@ -1,0 +1,55 @@
+.btn {
+    display: block;
+    text-align: center;
+    background-color: rgb(29, 64, 104);
+    color: rgb(253, 252, 255);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 5px;
+    border-radius: 2px;
+    
+}
+
+form {
+    background: rgb(90, 136, 101);
+    border: 1px solid rgb(90, 136, 101); 
+    border-radius: 2px;
+    text-align: center;
+    margin-bottom: 5px; 
+    color: rgb(253, 252, 255)
+   
+  }
+  
+  label {
+    display: block; 
+    margin-bottom: 5px; 
+    text-align: center;
+    padding: 2px;
+    color: #e0d5d5;
+    border-radius: 2px;
+  }
+ 
+  button {
+    background-color: rgb(29, 64, 104); 
+    color: #f2f2f2;
+    margin-bottom: 10px; 
+    border: none;
+    cursor: pointer;
+    width: 20%;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+ 
+  input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  input[type="number"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100px;
+  }

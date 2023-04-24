@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: rgb(209, 191, 191);
+
+}
+
+#container{
+    width: 70%;
+    margin: 0px auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+header{
+    background: rgb(184, 19, 19);
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: aliceblue;
+   border-bottom: 3px dashed black;
+   border-bottom: 2px solid black;
+   text-align: center;
+}
+nav{
+    background: rgb(155, 184, 194);
+    height: 50px;
+    
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.clearflix{
+    clear: both;
+}
+
+#content{
+    float: left;
+    width: calc(100% - 80px);
+    min-height: 500px;
+    background: green;
+    padding: 40px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#content2{
+    float: left;
+    width: 94%;
+    min-height: 500px;
+    padding: 30px;
+    background: rgb(90, 136, 101);  
+}

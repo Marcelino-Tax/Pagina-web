@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calcular esfuerzo de Halstead</title>
+     <script src="index2.js"></script>
+	 <link rel="stylesheet" href="estilos/stile.css">
+		<link rel="stylesheet" href="estilos/boton.css">
+</head>
+<body>
+
+	<div id="container">
+		<header>
+			<h1>Calcular esfuerzo de Halstead</h1>
+		</header>
+		<nav>
+			<ul>
+				<li>
+					<a class="btn" href="index.html">Resgresar</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="clearflix"></div>
+
+		<section>
+			<form>
+				<label for="n1">Número de operadores distintos:</label>
+				<input type="number" id="n1" name="n1"><br><br>
+				<label for="n2">Número de operandos distintos:</label>
+				<input type="number" id="n2" name="n2"><br><br>
+				<label for="N1">Número total de operadores:</label>
+				<input type="number" id="N1" name="N1"><br><br>
+				<label for="N2">Número total de operandos:</label>
+				<input type="number" id="N2" name="N2"><br><br>
+				<button type="button" onclick="calcularEsfuerzo()">Calcular</button>
+				<p id="resultado"></p>
+				<p id="resultado1"></p>
+				<p id="resultado2"></p>
+				<p id="resultado3"></p>
+				<p id="resultado4"></p>
+				<p id="resultado5"></p>
+				<p id="resultado6"></p>
+			</form>
+		</section>
+	</div>
+</body>
+</html>
